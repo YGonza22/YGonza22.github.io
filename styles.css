@@ -42,10 +42,10 @@
         border-radius: 30px;
     }
     nav ul li a:hover {
-        background: #f6f4ff;
+        background: #fff700;
     }
     
-    .hamburger {
+    .lines {
         display: none;
         height: fit-content;
         cursor: pointer;
@@ -53,10 +53,10 @@
         border-radius: 5px;
         transition: 0.2s;
     }
-    .hamburger:hover {
-        background: #f6f4ff;
+    .lines:hover {
+        background: #fff700;
     }
-    .hamburger .line {
+    .lines .line {
         width: 30px;
         height: 2px;
         margin: 6px 0;
@@ -249,7 +249,7 @@ p.project_link a:hover {
         padding: 15px;
         border-radius: 5px;
     }
-    .hamburger {
+    .lines {
         display: block;
     }
 }
