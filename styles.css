@@ -141,6 +141,71 @@
 }
 /*FIN CONTACT ME*/ 
 
+/* EXPERIENCE*/ 
+.experience {
+    max-width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    margin: 5% 0;
+}
+
+.project {
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgb(240, 99, 5);
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.project_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project_text {
+    padding: 26px 20px 36px 20px;
+}
+
+.project_title {
+    font-family: 'Merriweather',
+        serif;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+.project_text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+
+p.project_link {
+    font-size: 15px;
+    padding-top: 15px;
+
+}
+
+p.project_link a {
+    color: #1B1C34;
+    font-style: italic;
+}
+
+p.project_link a:hover {
+    font-weight: bold;
+}
+/*FIN EXPERIENCE*/ 
+
 @media only screen and (max-width: 900px) {
     /*NAVBAR*/
     header {
@@ -192,4 +257,56 @@
     .input_field label{
         margin-bottom: 5px;
     }
+    /*EXPERIENCE*/ 
+    .experience {
+        max-width: 90%;
+    }
+    .project {
+        padding: 20px 10px;
+    }
+    .project_text {
+        padding: 7px;
+    }
+    .project_title {
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+    .project_text p {
+        font-size: 14px;
+    }
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1441px) and (min-width: 1025px) {
+    /*EXPERIENCE*/
+    .experience {
+        max-width: 80%;
+    }
+    .grid {
+        gap: 2%;
+    }
+    .project {
+        padding: 15px;
+    }
+    .project_text {
+        padding: 13px;
+    }
+    .project_title {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+    .project_text p {
+        font-size: 14px;
+    }
+}
+
+.grid {
+    grid-template-columns: 1fr;
+    gap: 2%;
+}
+
