@@ -247,7 +247,7 @@ p.project_link a:hover {
         display: block;
     }
 }
-@media (max-width: 420px){
+@media (max-width: 425px){
     /*CONTACT ME*/ 
     .input_field{
         flex-direction: column;
@@ -277,10 +277,13 @@ p.project_link a:hover {
 }
 
 
-
-
-
-
+@media only screen and (max-width: 1024px) {
+    /*EXPERIENCE*/ 
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+}
 
 @media only screen and (max-width: 1441px) and (min-width: 1025px) {
     /*EXPERIENCE*/
@@ -304,9 +307,3 @@ p.project_link a:hover {
         font-size: 14px;
     }
 }
-
-.grid {
-    grid-template-columns: 1fr;
-    gap: 2%;
-}
-
