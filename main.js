@@ -1,4 +1,4 @@
-////////////////////////////-- CONTACT ME --///////////////////////////////!SECTION
+////////////////////////////-- CONTACT ME --///////////////////////////////
 
 const contactForm = document.getElementById("contact_form");
 
@@ -70,7 +70,7 @@ function validateEmail(email) {
     return true;
 }
 
-////////////////////////////-- HERO --///////////////////////////////!SECTION
+////////////////////////////-- HERO --///////////////////////////////
 let slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {
@@ -96,4 +96,16 @@ function showSlides(n) {
 }
 
 
+///////--SKILLS--/////////////
 
+let skillsChart = new Chart("skillsChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {}
+});

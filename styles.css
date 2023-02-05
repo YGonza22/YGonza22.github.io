@@ -162,8 +162,16 @@ background-color: #717171;
 }
 
 /*FIN CAMBIOS ABOUTME*/
-
-
+/*CAMBIOS SKILLS*/
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+#skillsChart{
+    width: 100%;
+    max-height: 600px;
+}
+/* FIN CAMBIOS SKILLS*/
 /*CONTACT ME*/ 
 .contact{
     max-width: 500px;
