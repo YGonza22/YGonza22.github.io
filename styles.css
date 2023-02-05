@@ -54,12 +54,14 @@
     .hamburger:hover {
         background: #f6f4ff;
     }
-.hamburger .line {
-    width: 30px;
-    height: 2px;
-    margin: 6px 0;
-    background: #212526;
-}
+    .hamburger .line {
+        width: 30px;
+        height: 2px;
+        margin: 6px 0;
+        background: #212526;
+    }
+    /* FIN CAMBIOS EN NAVBAR*/    
+
 /*CONTACT ME*/ 
 .contact{
     max-width: 500px;
@@ -114,6 +116,7 @@
 /*FIN CONTACT ME*/ 
 
 @media only screen and (max-width: 900px) {
+    /*NAVBAR*/
     header {
         width: 90%;
         padding: 0 20px;
