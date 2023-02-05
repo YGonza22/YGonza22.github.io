@@ -23,6 +23,8 @@
     .logo {
         width: 120px;
         margin-top: 8px;
+        font-weight: bold;
+        font-size: 30px;
     }
     nav .logo {
         display: none;
@@ -147,7 +149,10 @@
     margin: 0 auto;
     height: 100%;
 }
-
+.experience h1{
+    font-weight: bold;
+    font-size: 40px;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
